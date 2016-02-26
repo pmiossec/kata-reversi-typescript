@@ -14,7 +14,7 @@ export default class Reversi {
         for (var index = 0; index < this.board.length; index++) {
             var line = this.board[index];
             this.board[index] = this.ProcessLine(line, player);
-            //this.board[index] = _.reverse(this.ProcessLine(_.reverse(line), player));
+            this.board[index] = _.reverse(this.ProcessLine(_.reverse(line), player));
         }
     }
 

@@ -56,7 +56,7 @@ describe("Reversi", () => {
 
 
     describe("horizontal the left", () => {
-        xit("Should find a solution in the same line", () => {
+        it("Should find a solution in the same line", () => {
             let board = new Reversi([['.','.','.','B','W',]]);
 
             var newBoard = board.GetEligibleMoves('W');
