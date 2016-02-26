@@ -1,7 +1,7 @@
 import Complex from "../src/Complex";
 import { expect } from 'chai';
 
-describe("Complex numbers", () => {
+xdescribe("Complex numbers", () => {
 
   it("Should multiply using real number", () => {
     let first = new Complex(12, 3);
